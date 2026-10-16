@@ -8,7 +8,8 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
 		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-blue.min.css">
+	<link rel="stylesheet" href="Css/material.min.css">
+
 	<link rel="stylesheet" href="Css/style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 	<link rel="stylesheet" href="https://fontawesome.com">
@@ -16,13 +17,14 @@
 </head>
 
 <body>
-	<a href="https://wa.me." class="whatsapp-float" target="_blank" rel="noopener noreferrer">
+	<a href="https://wa.me/0732355733?text=Hello%20KENLAM%20Security" class="whatsapp-float" target="_blank"
+		rel="noopener noreferrer">
 		<i class="fab fa-whatsapp whatsapp-color" style="font-size: 30px; color: white"></i>
 	</a>
 	<nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
 		<a class="navbar-brand" href="#">
 			<img src="Images/Kenlam_Security_Logo.png" height="40" loading="lazy" class="d-inline-block my-0 align-top">
-			Kenlam Security</a>
+			<span class="d-none d-md-inline d-lg-inline">Kenlam Security </span></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
@@ -36,7 +38,7 @@
 					<a class="nav-link" href="#coreValues">Core values</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#aboutUs">About us</a>
+					<a class="nav-link" href="#services">Our Services us</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#contactUs">Contact us</a>
@@ -44,8 +46,9 @@
 			</ul>
 		</div>
 	</nav>
-	<div class="container mt-2">
-		<div class="row intro">
+	<div class="container mt-2 ">
+		<div class="container-fluid ">
+			<div class="row intro">
 			<div style="min-height: 300px;background-color: rgba(0, 0, 0, .4);" class="col-lg-12 ">
 				<div class="col-lg-9">
 					<h1 class="display-4 text-light mt-5">Welcome to:</h1>
@@ -56,9 +59,11 @@
 				<h3 class="text-light d-none">Bringing you closer to your business needs.</h3>
 			</div>
 		</div>
+		</div>
+		
 		<div class="row">
 			<div class="d-none d-lg-block d-md-block col-lg-8 col-sm-12">
-				<h5 class="text-center align-self-center display-4">Who are we?</h3>
+				<h5 class="text-center align-self-center  text-dark">Who are we?</h3>
 
 					<p class="lead "><span class="fas fa-quote-left"></span>
 						KENLAM security is one of the fast-growing security firms in Kenya and our
@@ -66,31 +71,27 @@
 						employee with most of them drawn from the private security backgrounds,
 						supplemented with relevant customized security training per assignment.
 
-						<span class="fas fa-quote-right"></span>
+					
 					</p>
 			</div>
-			<div class=" d-sm-block d-lg-none d-md-none col-sm-12">
-				<p class="lead "><span class="fas fa-quote-left"></span> KENLAM security is one of the fast-growing
-					security firms in Kenya and our
-					dedicated, close-knit staff pool is comprised of professional and experienced
-					employee with most of them drawn from the private security backgrounds,
-					supplemented with relevant customized security training per assignment."></span>
-				</p>
-				<div class="my-2">
+			<div class="col-lg-4 d-none d-lg-block d-md-block my-auto">
+				<img src="Images/Kenlam_Security_Logo.png" alt="Kenlam Security Logo" class="img-thumbnail">
+			</div>
+			<div class=" d-sm-block ">
+				
+				<div class="my-2 d-lg-none">
 					<img src="Images/Kenlam_Security_Logo.png" alt="Kenlam Security Logo" class="img-thumbnail">
 				</div>
-				<p class="lead"><span class="fas fa-quote-left"></span> KENLAM security is specialized in personnel
+				<p class="lead"> KENLAM security is specialized in personnel
 					protection, property protection,
 					safe journey management, event security, security consulting for individuals or
 					businesses and installation & maintenance of technology-based systems
 					(Alarms, hidden cameras, CCTV, access systems, fencing, locking systems). In
 					all phases of collaboration, we focus closely on the clients’ needs while paying
-					special attention to the need for confidentiality. <span class="fas fa-quote-right"></span>
+					special attention to the need for confidentiality. 	<span class="fas fa-quote-right"></span>
 				</p>
 			</div>
-			<div class="col-lg-4 d-none d-lg-block d-md-block my-auto">
-				<img src="Images/Kenlam_Security_Logo.png" alt="Kenlam Security Logo" class="img-thumbnail">
-			</div>
+			
 		</div>
 	</div>
 	<div class="container mt-5 has-carousel">
@@ -179,42 +180,102 @@
 		</div>
 	</div>
 	<div class="container my-5 py-5" style="background-color: rgba(0, 0, 0, .8);">
-		<h3 class="display-4 text-warning" id="aboutUs">
-			About Us
+		<h3 class="display-4 text-warning text-center id="services">
+			Our services
 		</h3>
 		<p class="lead text-light">
 
 			Kenlam Security is a security service based in Kenya that offers the following services:
 
 		</p>
-		<div class="row d-none ">
-			<div class="col-6"><span class="text-light">Manned Guarding Services</span></div>
-			<div class="col-6 img-wrapper"><img src="Images/manned_patrol.jpeg" alt="" class="img-kenlam "></div>
-			<div class="col-6"><span class="text-light">Manned Guarding Services</span></div>
-			<div class="col-6  img-wrapper"><img src="Images/manned_patrol.jpeg" alt="" class="img-kenlam "></div>
-			<div class="col-6"><span class="text-light">Manned Guarding Services</span></div>
-			<div class="col-6  img-wrapper"><img src="Images/manned_patrol.jpeg" alt="" class="img-kenlam "></div>
-			<div class="col-6"><span class="text-light">Manned Guarding Services</span></div>
-			<div class="col-6  img-wrapper"><img src="Images/manned_patrol.jpeg" alt="" class="img-kenlam "></div>
-			<div class="col-6"><span class="text-light">Manned Guarding Services</span></div>
-			<div class="col-6  img-wrapper"><img src="Images/manned_patrol.jpeg" alt="" class="img-kenlam "></div>
-			<div class="col-6"></div>
-			<div class="col-6  img-wrapper"></div>
-			<div class="col-6"></div>
-			<div class="col-6  img-wrapper"></div>
-			<div class="col-6"></div>
-			<div class="col-6  img-wrapper"></div>
+		<div class="row ">
+			<div class="col-lg-4 col-12 my-1 ">
+				
+					<div class="card mx-auto bg-dark text-light " style="width: 18rem;">
+						<img src="Images/security-man.png"  class="card-img-top" alt="...">
+						<div class="card-body">
+							<p class="card-text">Manned guarding services.</p>
+						</div>
+					</div>
+					
+				
+
+			</div>
+			<div class="col-lg-4 col-12 my-1">
+				
+					<div class="card mx-auto bg-dark text-light" style="width: 18rem;">
+						<img src="Images/vip.png" class="card-img-top" alt="...">
+						<div class="card-body">
+							<p class="card-text">VIP protection</p>
+						</div>
+					</div>
+					
+				
+				
+			</div>
+			<div class="col-lg-4 col-12 my-1">
+				
+					<div class="card mx-auto bg-dark text-light" style="width: 18rem;">
+						<img src="Images/bouncer.png" class="card-img-top" alt="...">
+						<div class="card-body">
+							<p class="card-text">Bouncer Services.</p>
+						</div>
+					</div>
+					
+			</div>
+			<div class="col-lg-4 col-12 my-1">
+				
+					<div class="card mx-auto bg-dark text-light" style="width: 18rem;">
+						<img src="Images/dog_training.png"  class="card-img-top" alt="...">
+						<div class="card-body">
+							<p class="card-text">Dog Training.</p>
+						</div>
+					</div>
+					
+			</div>
+			<div class="col-lg-4 col-12 my-1">
+				
+					<div class="card mx-auto bg-dark text-light" style="width: 18rem;">
+						<img src="Images/dog_solutions.png" class="card-img-top" alt="...">
+						<div class="card-body">
+							<p class="card-text">Dog Protection Solutions.</p>
+						</div>
+					</div>
+					
+			</div>
+			<div class="col-lg-4 col-12 my-1">
+				
+					<div class="card mx-auto bg-dark text-light" style="width: 18rem;">
+						<img src="Images/Electric_Fence.png" class="card-img-top" alt="...">
+						<div class="card-body">
+							<p class="card-text">Electric Fencing Solutions.</p>
+						</div>
+					</div>
+					
+			</div>
+			<div class="col-lg-4 col-12 my-1">
+				
+					<div class="card mx-auto bg-dark text-light" style="width: 18rem;">
+						<img src="Images/drones.png" class="card-img-top" alt="...">
+						<div class="card-body">
+							<p class="card-text">Technology Based Security Solutions.</p>
+						</div>
+					</div>
+					
+			</div>
+			<div class="col-lg-4 col-12 my-1">
+				
+					<div class="card mx-auto bg-dark text-light" style="width: 18rem;">
+						<img src="Images/cctv.png"  class="card-img-top" alt="...">
+						<div class="card-body">
+							<p class="card-text">Covert Surveillance Solutions.</p>
+						</div>
+					</div>
+					
+			</div>
+
 		</div>
-		<ul class="list-group  text-capitalize">
-			<li class="list-group-item">MANNED GUARDING SERVICES</li>
-			<li class="list-group-item">VIP PROTECTION</li>
-			<li class="list-group-item">BOUNCER SERVICES</li>
-			<li class="list-group-item">DOG TRAINING</li>
-			<li class="list-group-item">DOG PROTECTION SERVICES</li>
-			<li class="list-group-item">ELECTRIC FENCING SOLUTION</li>
-			<li class="list-group-item">TECHNOLOGY BASED SECURITY SYSTEMS</li>
-			<li class="list-group-item">COVERT SURVEILLANCE SYSTEMS</li>
-		</ul>
+
 	</div>
 	<div class="container my-5 ">
 		<div class="core-values justify-content-center">
@@ -256,8 +317,26 @@
 	</div>
 	<div class="container-fluid py-2 ">
 		<h1 class="h1 text-center text-capitalize">GUARD EQUIPMENT & UNIFORM</h1>
+		
+
+		<div class="container my-2">
+			<p>All KENLAM Security guarding personnel are equipped with practical and
+				durable uniforms and supporting kit as follows:</p>
+			<ul>
+				<li>2 pairs of uniform</li>
+				<li>A lanyard/whistle</li>
+				<li>Pair of boots </li>
+				<li>Raincoat</li>
+				<li>Torch</li>
+				<li>Sweater</li>
+			</ul>
+			<img src="Images/guards_uniform.png" alt="" class="img-fluid" height="400px">
+		</div>
+	</div>
+	<div class="container-fluid bg-dark">
+		<h3 class="text-center text-light">Our men at Work</h3>
 		<div class="d-flex justify-content-center align-items-center">
-			<video width="640" height="360" controls poster="placeholder-image.jpg">
+			<video class="container" controls poster="placeholder-image.jpg">
 				<source src="Images/vid_1.mp4" type="video/mp4" />
 				<!-- <source src="movie.webm" type="video/webm" />
   <source src="movie.ogv" type="video/ogg" /> -->
@@ -265,20 +344,6 @@
 				Your browser does not support the HTML5 video tag.
 			</video>
 		</div>
-
-<div class="container my-2">
-<p>All KENLAM Security guarding personnel are equipped with practical and 
-durable uniforms and supporting kit as follows:</p>
-<ul>
-	<li>2 pairs of uniform</li>
-	<li>A lanyard/whistle</li>
-	<li>Pair of boots </li>
-	<li>Raincoat</li>
-	<li>Torch</li>
-	<li>Sweater</li>
-</ul>
-<img src="Images/guards_uniform.png" alt="" class="img-fluid" height="400px">
-</div>
 	</div>
 	<div class="container-fluid py-2" id="contactUs" style="background-image: url('Images/5.png');">
 		<div class="row justify-content-center m-3">
@@ -306,9 +371,11 @@ durable uniforms and supporting kit as follows:</p>
 				</div>
 				<div class="col-lg-4 mx-auto ">
 					<h4>Our Contacts</h3>
-						<span class="">Tel:</span> <a href="tel:+254769355733" class="text-DARK">+254769355733</a>
+						<span class="">Tel:</span> <a href="tel:0202355733" class="text-DARK">0202355733</a>
 						<br>
-						<a href="tel:+254754642489" class="text-DARK">+254754642489</a>
+						<a href="tel:0732355733" class="text-DARK">0732355733</a>
+						<br>
+						<span>Email: </span> <a href="mailto: kenlamsecservices@gmail.com"> kenlamsecservices@gmail.com</a>
 						<br>
 						Berur Plaza, 2nd floor, Moi St,<br>
 						Eldoret. <br>
@@ -331,7 +398,7 @@ durable uniforms and supporting kit as follows:</p>
 	</div>
 
 
-	<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+	<script defer src="Js/material.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
 		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
 		crossorigin="anonymous"></script>
